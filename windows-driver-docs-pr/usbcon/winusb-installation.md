@@ -6,7 +6,7 @@ ms.date: 07/15/2024
 
 # WinUSB (Winusb.sys) installation for developers
 
-For certain Universal Serial Bus (USB) devices, you can install [WinUSB](winusb.md) (*Winusb.sys*) instead of implementing a driver.
+For certain Universal Serial Bus (USB) devices, you can install [WinUSB](introduction-to-winusb-for-developers.md) (*Winusb.sys*) instead of implementing a driver.
 
 > [!IMPORTANT]
 > This topic is for programmers. If you are a customer experiencing USB problems, see [Fix USB-C problems in Windows](https://support.microsoft.com/windows/fix-usb-c-problems-in-windows-f4e0e529-74f5-cdae-3194-43743f30eed2)
@@ -232,9 +232,7 @@ REG_MULTI_SZ = 0x00010000
 
 Each time *Winusb.sys* loads, it registers a device interface that has the device interface classes that are specified in the registry under the **DeviceInterfaceGUIDs** key.
 
-``` syntax
-HKR,,DeviceInterfaceGUIDs, 0x10000,"{D696BFEB-1734-417d-8A04-86D01071C512}"
-```
+`HKR,,DeviceInterfaceGUIDs, 0x10000,"{D696BFEB-1734-417d-8A04-86D01071C512}"`
 
 If you use the redistributable WinUSB package for Windows XP or Windows Server 2003, make sure that you don't uninstall WinUSB in your uninstall packages. Other USB devices might be using WinUSB, so its binaries must remain in the shared folder.
 
@@ -286,4 +284,4 @@ Make sure that the driver package contents meet these requirements:
 - [WinUSB Power Management](winusb-power-management.md)
 - [WinUSB Functions for Pipe Policy Modification](winusb-functions-for-pipe-policy-modification.md)
 - [WinUSB functions](using-winusb-api-to-communicate-with-a-usb-device.md)
-- [WinUSB](winusb.md)
+- [Introduction to WinUSB for Developers](introduction-to-winusb-for-developers.md)

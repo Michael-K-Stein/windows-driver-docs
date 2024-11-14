@@ -2,8 +2,8 @@
   href: index.md
 - name: "Windows Drivers"
   items:
-  - name: "Getting Started with Windows Drivers"
-    href: getting-started-with-windows-drivers.md
+  - name: "Get started developing Windows drivers"
+    href: get-started-developing-windows-drivers.md
   - name: "DCH Design Principles and Best Practices"
     href: dch-principles-best-practices.md
   - name: "Driver Package Isolation"
@@ -142,11 +142,11 @@
     href: static-driver-verifier-known-issues.md
 - name: "Logging"
   items: 
-  - name: "Creating a Driver Verification Log"
+  - name: "How to create a driver verification log"
     href: creating-a-driver-verification-log.md
-  - name: "Creating a log file for the code analysis tool"
+  - name: "How to create a log file for the code analysis tool"
     href: creating-a-log-file-for-the-code-analysis-tool.md
-  - name: "Creating a log file for Static Driver Verifier"
+  - name: "How to create a log file for static driver verifier"
     href: creating-a-log-file-for-static-driver-verifier.md
-- name: "Distributing a driver package"
+- name: "How to distribute a driver package"
   href: distributing-a-driver-package-win8.md

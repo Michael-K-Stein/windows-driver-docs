@@ -352,8 +352,6 @@
     href: supported-usb-classes.md
   - name: "USB serial driver (Usbser.sys)"
     href: usb-driver-installation-based-on-compatible-ids.md
-  - name: "Microsoft-Defined USB Driver Frameworks"
-    href: microsoft-defined-usb-frameworks.md
   - name: "USB Device Registry Entries"
     href: usb-device-specific-registry-settings.md
   - name: "Usbccgp.sys"
@@ -375,7 +373,7 @@
   - name: "Winusb.sys"
     items: 
     - name: "Introduction to WinUSB (Winusb.sys)"
-      href: winusb.md
+      href: introduction-to-winusb-for-developers.md
     - name: "WinUSB Architecture and Modules"
       href: winusb-architecture.md
     - name: "WinUSB (Winusb.sys) Installation"
